@@ -1,0 +1,8 @@
+{
+  "response": {
+    "unknown": "Unknown error",
+    "network": "Network error",
+    "server": "Server error",
+    "timeout": "Request timeout exceeded"
+  }
+}
