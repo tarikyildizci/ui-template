@@ -5,13 +5,13 @@
 1. Install nodejs => https://nodejs.org/en/download
 2. Install yarn => https://yarnpkg.com/
 3. Run `yarn` to install libraries
-4. Run `yarn hak` or `yarn dev` to start te local development server
+4. Run `yarn hak` or `yarn dev` to start the local development server
 
 ## Important Libraries
 
 ### React
 
-We user React as our UI framework for its component-based structure and huge community.
+We use React as our UI framework for its component-based structure and huge community.
 
 ### Typescript
 
