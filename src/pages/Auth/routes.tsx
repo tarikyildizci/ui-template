@@ -5,5 +5,6 @@ export const authRoutes: Array<RouteObject> = [
   {
     path: '/login',
     element: <Login />,
+    id: 'login',
   },
 ]

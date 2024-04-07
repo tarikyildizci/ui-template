@@ -4,5 +4,17 @@
     "network": "Network error",
     "server": "Server error",
     "timeout": "Request timeout exceeded"
+  },
+  "pages": {
+    "login": {
+      "email": "Email",
+      "password": "Password"
+    }
+  },
+  "breadcrumbs": {
+    "home": "Home",
+    "login": "Login",
+    "questionnaire": "Questionnaire",
+    "dashboard": "Dashboard"
   }
 }

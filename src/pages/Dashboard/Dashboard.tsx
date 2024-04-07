@@ -1,5 +1,3 @@
-import React from 'react'
-
 export const Dashboard: React.FC = () => {
-  return <div>Dashboard!</div>
+  return <div>Hello world!</div>
 }

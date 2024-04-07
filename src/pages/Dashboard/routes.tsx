@@ -5,5 +5,6 @@ export const dashboardRoutes: Array<RouteObject> = [
   {
     index: true,
     element: <Dashboard />,
+    id: 'dashboard',
   },
 ]
