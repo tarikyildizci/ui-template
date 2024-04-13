@@ -4,9 +4,7 @@ import { initI18n } from '@/lib/i18n'
 import { PrivateOutlet } from '@/pages/Root'
 import {
   authRoutes,
-  controlsRoutes,
   dashboardRoutes,
-  onboardingRoutes,
   projectRoutes,
   utilityRoutes,
 } from '@/pages'
@@ -18,10 +16,9 @@ const App: React.FC = () => {
     {
       id: '_home',
       element: <PrivateOutlet />,
-      children: [...dashboardRoutes, ...controlsRoutes, ...projectRoutes],
+      children: [...dashboardRoutes, ...projectRoutes],
     },
     ...authRoutes,
-    ...onboardingRoutes,
     ...utilityRoutes,
   ])
   return <RouterProvider router={router} />

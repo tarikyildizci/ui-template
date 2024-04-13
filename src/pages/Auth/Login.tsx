@@ -14,8 +14,8 @@ import {
   FormLabel,
   FormMessage,
 } from '@/components/ui/form'
-import { PasswordInput } from '@/components/upsupply/PasswordInput'
 import { useTranslation } from '@/lib'
+import { PasswordInput } from '@/components'
 
 const schema = z.object({
   email: z.string().email(),

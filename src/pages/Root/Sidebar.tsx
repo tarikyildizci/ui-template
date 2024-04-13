@@ -19,7 +19,7 @@ export const Sidebar: React.FC = () => {
         <div className="flex h-14 items-center border-b px-6">
           <Link to="/" className="flex items-center gap-1 font-semibold">
             <ArrowBigUpDash />
-            <span className="text-lg font-medium">upsupply</span>
+            <span className="text-lg font-medium">ondokuz</span>
           </Link>
         </div>
         <div className="flex-1">

@@ -34,26 +34,6 @@
         "passwords_match": "Passwords do not match"
       }
     },
-    "onboarding": {
-      "create_organization": {
-        "organization_name": {
-          "title": "Welcome to upsupply!",
-          "subtitle": "Let's get started by creating your organization.",
-          "label": "Organization name",
-          "placeholder": "Your organization",
-          "required": "Organization name is required",
-          "max": "Organization name must be less than 255 characters",
-          "min": "Organization name must be at least 3 characters",
-          "helper": "You can change this later in your settings."
-        },
-        "members": {
-          "title": "Invite your team",
-          "subtitle": "Share this link with your team to invite them to join your organization.",
-          "link_copied": "Invitation link copied to clipboard!",
-          "go_to_dashboard": "Go to dashboard"
-        }
-      }
-    },
     "common": {
       "not_found": {
         "error": "404 error",
@@ -67,7 +47,6 @@
   "breadcrumbs": {
     "home": "Home",
     "login": "Login",
-    "questionnaire": "Questionnaire",
     "dashboard": "Dashboard",
     "projects": "Projects"
   }

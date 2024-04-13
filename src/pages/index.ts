@@ -1,6 +1,4 @@
 export { authRoutes } from './Auth/routes'
-export { onboardingRoutes } from './Onboarding/routes'
-export { controlsRoutes } from './Controls/routes'
 export { dashboardRoutes } from './Dashboard/routes'
 export { projectRoutes } from './Projects/routes'
 export { utilityRoutes } from './Utility/routes'

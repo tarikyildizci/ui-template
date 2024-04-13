@@ -1,1 +1,0 @@
-export { JoinOrganization } from './JoinOrganization'

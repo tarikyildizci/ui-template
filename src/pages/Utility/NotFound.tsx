@@ -1,7 +1,6 @@
 import { Button } from '@/components/ui/button'
-import { Logo } from '@/components/upsupply'
 import { useTranslation } from '@/lib'
-import { ArrowLeft } from 'lucide-react'
+import { ArrowBigUpDash, ArrowLeft } from 'lucide-react'
 import React from 'react'
 import { Link } from 'react-router-dom'
 
@@ -10,7 +9,10 @@ export const NotFound: React.FC = () => {
   return (
     <main className="h-screen w-full p-20">
       <div className="absolute left-8 top-8">
-        <Logo />
+        <Link to="/" className="flex items-center gap-1 font-semibold">
+          <ArrowBigUpDash />
+          <span className="text-lg font-medium">ondokuz</span>
+        </Link>
       </div>
       <div className="h-full flex flex-col justify-center gap-4">
         <p className="text-xl font-semibold text-orange-500">{t('error')}</p>
